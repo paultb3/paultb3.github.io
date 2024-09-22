@@ -1,0 +1,62 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgba(0,0,0,0.5);
+}
+h2{
+    margin: 0;
+    font-size: 18px;
+    font-family: "Protest Guerrilla", sans-serif;
+    letter-spacing: 2px;
+    text-indent: 5%;
+    margin-right: 5px;
+}
+i{
+    margin-top: 2px;
+}
+header{
+    position:sticky;
+    top: 0;
+    background-color:white;
+    color: black;
+    z-index: 10000;
+    display: flex;
+    padding: 2%;
+    
+}
+ul{
+    position: absolute;
+    right: 0;
+    margin-right: 2%;
+    margin-top: 0.1%;
+}
+
+li{
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+    margin: 15px ;
+    padding: 3px;
+    font-size: 18px;
+    font-family: "Quicksand", sans-serif;
+    color: black;
+}
+
+a:hover{
+    background-color: rgba(0,0,0,0.1);
+    border-radius: 8px;
+
+}
+p{
+    color: white;
+    font-size: 25px;
+}
+.caja{
+    margin: 20% ;
+    border: 2px solid yellow;
+    text-align: center;
+}
+img{
+    max-width: 100%;
+}
