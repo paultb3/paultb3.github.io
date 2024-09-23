@@ -1,9 +1,9 @@
 body{
     padding: 0;
     margin: 0;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0,0,0,0.1);
 }
-h2{
+h2.name{
     margin: 0;
     font-size: 18px;
     font-family: "Protest Guerrilla", sans-serif;
@@ -48,10 +48,7 @@ a:hover{
     border-radius: 8px;
 
 }
-p{
-    color: white;
-    font-size: 25px;
-}
+
 .caja{
     margin: 20% ;
     border: 2px solid yellow;
@@ -59,4 +56,31 @@ p{
 }
 img{
     max-width: 100%;
+}
+
+h1{
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    margin-left: 2%;
+    margin-top: 5%;
+}
+
+.contenedores{
+    margin: 2% 2%;
+
+}
+
+.titulos{
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+}
+P{
+    margin: 0;
+    padding: 0;
+    font: 14px;
+}
+
+img{
+    max-width: 50%;
+    margin: 2% 25%;
 }
