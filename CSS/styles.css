@@ -4,15 +4,18 @@ body{
     background-color: rgba(0,0,0,0.1);
 }
 h2.name{
+    position: relative;
     margin: 0;
     font-size: 18px;
     font-family: "Protest Guerrilla", sans-serif;
     letter-spacing: 2px;
     text-indent: 5%;
     margin-right: 5px;
+    display: flex;
 }
 i{
     margin-top: 2px;
+    margin-left: 0;
 }
 header{
     position:sticky;
@@ -20,20 +23,21 @@ header{
     background-color:white;
     color: black;
     display: flex;
+    text-align: center;
+    justify-content: space-between;
     padding: 18px;
     
 }
 
 nav{
-    position:fixed;
-    right: 0;
-    margin-right: 2%;
+    position:flex;
+    justify-content: space-between;
+    
 }
 ul{
     display: flex;
-    right: 0;
-    margin-right: 2%;
-    margin-top: 0.1%;
+    margin: 0;
+    padding: 0;
 }
 
 li{
