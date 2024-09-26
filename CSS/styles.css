@@ -1,74 +1,108 @@
-body{
+*{
     padding: 0;
     margin: 0;
+}
+body{
     background-color: rgba(0,0,0,0.1);
 }
-h2.name{
-    position: relative;
-    margin: 0;
-    font-size: 18px;
-    font-family: "Protest Guerrilla", sans-serif;
-    letter-spacing: 2px;
-    text-indent: 5%;
-    margin-right: 5px;
-    display: flex;
-}
-span{
-    font-size: 13px;
-}
-i{
-    margin-top: 2px;
-    margin-left: 0;
-}
+
 header{
-    position:sticky;
+
+    height: 30px;
+    position: sticky;
     top: 0;
-    background-color:white;
-    color: black;
     display: flex;
-    text-align: center;
+    align-items: center;
     justify-content: space-between;
-    padding: 18px;
-    
+    padding: 2rem;
+    background-color: white;
 }
-
-nav{
-    position:flex;
-    justify-content: space-between;
-    
+.logo{
+    font-size: 16px;
+    letter-spacing: 2px;
+    font-family: "Protest Guerrilla", sans-serif;
 }
-ul{
+.nav-list{
+    list-style: none;
     display: flex;
-    margin: 0;
-    padding: 0;
+    gap: 1rem;
 }
-
-li{
-    display: inline-block;
-}
-a{
+.nav-list li a{
     text-decoration: none;
-    margin: 15px 40px ;
-    padding: 3px;
-    font-size: 18px;
-    font-family: "Quicksand", sans-serif;
     color: black;
+    font-family: "Quicksand", sans-serif;
+}
+.abrir-menu{
+    display: none;
+}
+.cerrar-menu{
+    display: none;
 }
 
-a:hover{
+@media screen and (max-width: 550px){
+    .abrir-menu,
+    .cerrar-menu{
+        display: block;
+        border: 0;
+        font-size: 1.25rem;
+        background-color: transparent;
+        cursor: pointer;
+    }
+    .abrir-menu{
+        padding: 5px;
+    }
+
+    .abrir-menu:hover{
+        background-color: rgba(0,0,0,0.6);
+        color: white;
+        border-radius: 5px;
+    }
+    .cerrar-menu{
+        color: white;
+        padding: 4px;
+    }
+    .cerrar-menu:hover{
+        background-color: white;
+        border-radius: 8px;
+        color: black;
+    }
+    .nav{
+        opacity: 0;
+        visibility: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        gap: 1rem;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        height: 100vh;
+        background-color: rgba(0,0,0,0.8);
+        padding: 2rem;
+        box-shadow: 0 0 0 100vmax rgba(0,0,0,0.5);
+    }
+    .nav.visible{
+        opacity: 1;
+        visibility: visible;
+    }
+    .nav-list{
+        flex-direction: column;
+        align-items: end;
+    }
+    .nav-list li a{
+        color: white;
+    }
+}
+.nav-list li a{
+    padding: 5px;
+}
+.nav-list li a:hover{
     background-color: rgba(0,0,0,0.1);
     border-radius: 8px;
-
 }
 
-.caja{
-    margin: 20% ;
-    border: 2px solid yellow;
-    text-align: center;
-}
-img{
-    max-width: 100%;
-}
+
 
 h1{
     font-family: "Open Sans", sans-serif;
@@ -84,6 +118,10 @@ h1{
     background-color: white;
     border-radius: 10px;
 
+}
+div.contenedores:hover{
+    transition: 0.3s; /*ayuda que l transicion no sea tosca*/
+    padding: 15px;
 }
 
 .titulos{
