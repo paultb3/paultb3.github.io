@@ -14,7 +14,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1rem;
+    padding: 1.5rem;
     background-color: white;
 }
 .logo{
@@ -118,12 +118,12 @@ h1{
     font-family: "Open Sans", sans-serif;
     font-size: 18px;
     margin-left: 2%;
-    margin-top: 5%;
+    margin-top: 1rem;
 }
 
 .contenedores{
     width: 70%;
-    margin: 5% auto;
+    margin: 2rem auto;
     padding: 5px;
     background-color: white;
     border-radius: 10px;
