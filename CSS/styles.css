@@ -14,13 +14,19 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 2rem;
+    padding: 1rem;
     background-color: white;
 }
 .logo{
-    font-size: 16px;
-    letter-spacing: 2px;
-    font-family: "Protest Guerrilla", sans-serif;
+    font-size: 20px;
+    letter-spacing: 0px;
+    font-family: "Abel", sans-serif;
+    margin-left: 4rem;
+    font-weight: 300;
+}
+.logo:hover{
+    color: rgb(41, 117, 231);
+    cursor: pointer;
 }
 .nav-list{
     list-style: none;
@@ -28,6 +34,7 @@ header{
     gap: 1rem;
 }
 .nav-list li a{
+    font-size: 18px;
     text-decoration: none;
     color: black;
     font-family: "Quicksand", sans-serif;
@@ -40,6 +47,9 @@ header{
 }
 
 @media screen and (max-width: 550px){
+    .logo{
+        margin-left: 0.5rem;
+    }
     .abrir-menu,
     .cerrar-menu{
         display: block;
@@ -95,7 +105,7 @@ header{
     }
 }
 .nav-list li a{
-    padding: 5px;
+    padding: 10px;
 }
 .nav-list li a:hover{
     background-color: rgba(0,0,0,0.1);
@@ -126,14 +136,14 @@ div.contenedores:hover{
 
 .titulos{
     font-family: "Open Sans", sans-serif;
-    font-size: 16px;
+    font-size: 20px;
     padding: 5px;
     text-align: center;
 }
 P{
     margin: 0;
     padding: 0;
-    font-size: 14px;
+    font-size: 18px;
     text-align: justify;
     padding: 2px;
 }
