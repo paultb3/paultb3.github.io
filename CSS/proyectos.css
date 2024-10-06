@@ -6,7 +6,6 @@ body{
     background-color: rgba(0,0,0,0.1);
 }
 header{
-
     height: 25px;
     position: sticky;
     top: 0;
@@ -27,19 +26,70 @@ header{
     cursor: pointer;
 }
 
- a{
+ a.barra{
     font-size: 18px;
     margin-right: 2rem;
     text-decoration: none;
     color: black;
     font-family: "Quicksand", sans-serif;
 }
-a{
+a.barra{
     padding: 8px;
 }
-a:hover{
+a.barra:hover{
     color: white;
     background-color: rgba(0,0,0,0.7);
     border-radius: 8px;
 }
 
+.contenedores{
+    text-align: center;
+    background-color: white;
+    border-radius: 2.5rem;
+    max-width: 40%;
+    padding: 30px;
+    height: 30%;
+    margin: 1rem auto;
+}
+
+a.cabezeras{
+    background-color: red;
+    border-radius: 10px;
+    max-width: 40%;
+    padding: 15px;
+    margin: auto;
+    text-decoration: none;
+    color: black;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    background-color: rgba(0,0,0,0.4)
+}
+
+a.cabezeras.restaurant:hover{
+    color: white;
+    background-color:#641e16;
+}
+
+a.cabezeras.log:hover{
+    color: white;
+    background-color: rgb(22, 111, 189);
+}
+a.cabezeras.cal:hover{
+    color: white;
+    background-color: #696969;
+}
+a.cabezeras.za:hover{
+    color: white;
+    background-color: #20B2AA;
+}
+
+div.contenedores:hover{
+    transition: 0.3s; 
+    padding: 40px;
+}
+
+img{
+    width: 100%;
+    margin-bottom: 35px;
+    border-radius: 1.5rem ;
+}
