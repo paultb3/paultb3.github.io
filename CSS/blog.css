@@ -34,12 +34,46 @@ header{
     color: black;
     font-family: "Quicksand", sans-serif;
 }
-a{
+a.navegacion{
     padding: 8px;
 }
-a:hover{
+a.navegacion:hover{
     color: white;
     background-color: rgba(0,0,0,0.7);
     border-radius: 8px;
 }
 
+.my-name{
+    margin: 2rem 3rem;
+
+
+}
+div .my-tittle{
+    font-size: 50px;
+}
+.my-name p{
+    margin-top: 10px;
+    font-size: 18px;
+    margin-bottom: 3rem;
+}
+
+.contenedores{
+     margin: 2rem 3rem;
+     padding: 2rem;
+     background-color: rgba(255,255,255,0.9);
+     border-radius: 10px;
+
+}
+.contenedores img{
+    max-width: 90%;
+    margin: 2% 5%;
+     border-radius: 8px;
+}
+
+.contenedores h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+strong{
+    margin-bottom: 20px;
+}
