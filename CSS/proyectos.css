@@ -3,7 +3,7 @@
     margin: 0;
 }
 body{
-    background-color: rgba(0,0,0,0.1);
+    background-color:#2F4F4F;
 }
 header{
     height: 25px;
@@ -45,11 +45,20 @@ a.barra:hover{
 .contenedores{
     text-align: center;
     background-color: white;
-    border-radius: 2.5rem;
+    border-radius: 10px;
     max-width: 40%;
-    padding: 30px;
+    padding: 25px;
     height: 30%;
     margin: 1rem auto;
+}
+div.contenedores:hover{
+    transition: 0.3s; 
+    padding: 28px;
+
+}
+.contenedores h4{
+    font-size: 25px;
+    margin-bottom: 20px;
 }
 
 a.cabezeras{
@@ -59,37 +68,23 @@ a.cabezeras{
     padding: 15px;
     margin: auto;
     text-decoration: none;
-    color: black;
+    color: white;
     font-family: "Open Sans", sans-serif;
     font-size: 16px;
-    background-color: rgba(0,0,0,0.4)
+    background-color: rgba(0,0,0,0.4);
+    background-color:#006400;
 }
 
-a.cabezeras.restaurant:hover{
+a.cabezeras:hover{
     color: white;
-    background-color:#641e16;
+    background-color: #2E8B57;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-a.cabezeras.log:hover{
-    color: white;
-    background-color: rgb(22, 111, 189);
-}
-a.cabezeras.cal:hover{
-    color: white;
-    background-color: #696969;
-}
-a.cabezeras.za:hover{
-    color: white;
-    background-color: #20B2AA;
-}
 
-div.contenedores:hover{
-    transition: 0.3s; 
-    padding: 40px;
-}
 
 img{
     width: 100%;
     margin-bottom: 35px;
-    border-radius: 1.5rem ;
+    border-radius: 8px ;
 }

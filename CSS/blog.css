@@ -3,13 +3,11 @@
     margin: 0;
 }
 body{
-    background-color: rgba(0,0,0,0.1);
+    background-color:#2F4F4F;
 }
 header{
 
     height: 25px;
-    position: sticky;
-    top: 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -21,6 +19,7 @@ header{
     font-family: "Abel", sans-serif;
     margin-left: 2rem;
     font-weight: 300;
+  
 }
 .titulo:hover{
     color: rgba(43, 106, 169, 0.881);
@@ -45,6 +44,7 @@ a.navegacion:hover{
 
 .my-name{
     margin: 2rem 3rem;
+    color: white;
 
 
 }
