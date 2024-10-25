@@ -82,14 +82,30 @@ strong{
     font-style: italic;
     background-color: white;
     border-radius: 12px;
-    height: 30px;
+    height: 110px;
     max-width: 300px;
     margin: 3rem auto;
     padding: 20px;
     text-align: center;
     
 }
+.texto{
+    margin: 5px;
+    width: 80%;
+    height: 40px;
+}
 
 .comentario form label{
-    margin-bottom: 2rem;
+    margin-bottom: rem;
+    
+}
+
+div form .boton{
+    margin-top: 1rem;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 8px;
+    border-style: none;
+    background-color:#2F4F4F ;
+    color: white;
 }
