@@ -77,3 +77,19 @@ div .my-tittle{
 strong{
     margin-bottom: 20px;
 }
+
+.comentario{
+    font-style: italic;
+    background-color: white;
+    border-radius: 12px;
+    height: 30px;
+    max-width: 300px;
+    margin: 3rem auto;
+    padding: 20px;
+    text-align: center;
+    
+}
+
+.comentario form label{
+    margin-bottom: 2rem;
+}
