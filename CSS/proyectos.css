@@ -12,13 +12,13 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1.5rem;
+    padding: 12px;
     background-color: white;
 }
 .titulo{
-    font-size: 20px;
+    font-size: 18px;
     font-family: "Abel", sans-serif;
-    margin-left: 2rem;
+    margin-left: 30px;
     font-weight: 300;
 }
 .titulo:hover{
@@ -27,45 +27,41 @@ header{
 }
 
  a.barra{
-    font-size: 18px;
-    margin-right: 2rem;
+    font-size: 16px;
+    padding: 5px;
+    font-family: "Quicksand", sans-serif;
+    margin-right: 10px;
     text-decoration: none;
     color: black;
     font-family: "Quicksand", sans-serif;
 }
-a.barra{
-    padding: 8px;
-}
+
 a.barra:hover{
     color: white;
     background-color: rgba(0,0,0,0.7);
-    border-radius: 8px;
+    border-radius: 10px;
 }
 
 .contenedores{
     text-align: center;
     background-color: white;
-    border-radius: 10px;
+    border-radius: 15px;
     max-width: 40%;
-    padding: 25px;
+    padding: 13px;
     height: 30%;
-    margin: 1rem auto;
+    margin: 5px auto;
 }
 div.contenedores:hover{
-    transition: 0.3s; 
-    padding: 28px;
+    transition: 0.4s; 
+    padding: 15.5px;
 
-}
-.contenedores h4{
-    font-size: 25px;
-    margin-bottom: 20px;
 }
 
 a.cabezeras{
     background-color: red;
     border-radius: 10px;
     max-width: 40%;
-    padding: 15px;
+    padding: 10px;
     margin: auto;
     text-decoration: none;
     color: white;
@@ -85,6 +81,11 @@ a.cabezeras:hover{
 
 img{
     width: 100%;
-    margin-bottom: 35px;
+    margin-bottom: 20px;
     border-radius: 8px ;
+}
+
+.caja-doble{
+    display: flex;
+    padding: 10px;
 }

@@ -13,14 +13,14 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1.5rem;
+    padding: 12px;
     background-color: white;
 }
 .logo{
     font-size: 20px;
     letter-spacing: 0px;
     font-family: "Abel", sans-serif;
-    margin-left: 4rem;
+    margin-left: 30px;
     font-weight: 300;
 }
 .logo:hover{
@@ -104,7 +104,7 @@ header{
     }
 }
 .nav-list li a{
-    padding: 8px;
+    padding: 4px;
 }
 .nav-list li a:hover{
     color: white;
@@ -123,10 +123,10 @@ h1{
 }
 
 .contenedores{
-    width: 70%;
+    width: 90%;
     height: 40%;
-    margin: 2rem auto;
-    padding: 10px;
+    margin: 20px auto;
+    padding: 13px;
     background-color: white;
     border-radius: 10px;
 
@@ -152,7 +152,6 @@ P{
 }
 
 img{
-    max-width: 50%;
-    margin: 2% 25%;
-    border-radius: 8px;
+    max-width: 95%;
+    padding: 10px;
 }

@@ -6,19 +6,20 @@ body{
     background-color:#2F4F4F;
 }
 header{
-    height: 70px;
+    height: 50px;
     position: sticky;
     top: 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1.5rem;
+    padding: 12px;
     background-color: white;
 }
 .titulo{
+    margin-top: 10px;
     font-size: 20px;
     font-family: "Abel", sans-serif;
-    margin-left: 2rem;
+    margin-left: 30px;
     font-weight: 300;
 }
 .titulo:hover{
@@ -26,26 +27,27 @@ header{
     cursor: pointer;
 }
 
- a{
-    font-size: 18px;
-    margin-right: 2rem;
+ a.barra{
+    font-size: 16px;
+    padding: 5px;
+    font-family: "Quicksand", sans-serif;
+    margin-right: 10px;
     text-decoration: none;
     color: black;
     font-family: "Quicksand", sans-serif;
 }
-a{
-    padding: 8px;
-}
-a:hover{
+
+a.barra:hover{
     color: white;
     background-color: rgba(0,0,0,0.7);
-    border-radius: 8px;
+    border-radius: 10px;
 }
+
 
 .caja{
     background-color: white;
     text-align: center;
-    max-width: 50%;
+    max-width: 95%;
     margin: 40px auto;
     border-radius: 12px;
     padding: 10px;

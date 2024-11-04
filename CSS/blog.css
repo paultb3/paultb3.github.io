@@ -11,13 +11,13 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1.5rem;
+    padding: 10px;
     background-color: white;
 }
 .titulo{
     font-size: 20px;
     font-family: "Abel", sans-serif;
-    margin-left: 2rem;
+    margin-left: 30px;
     font-weight: 300;
   
 }
@@ -28,13 +28,13 @@ header{
 
  a{
     font-size: 18px;
-    margin-right: 2rem;
+    margin-right: 10px;
     text-decoration: none;
     color: black;
     font-family: "Quicksand", sans-serif;
 }
 a.navegacion{
-    padding: 8px;
+    padding: 4px;
 }
 a.navegacion:hover{
     color: white;
