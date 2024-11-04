@@ -7,7 +7,7 @@ body{
 }
 header{
 
-    height: 25px;
+    height: 30px;
     position: sticky;
     top: 0;
     display: flex;
