@@ -12,15 +12,16 @@
     color: #333;
     display: grid;
     grid-template-columns: 1fr 5fr ;
-    grid-template-rows: 9fr .5fr;
+    grid-template-rows: 9fr 2fr;
     min-height: 100vh;
   }
 
   header{
     background-color:   #2c3e50;
     color: white;
+     min-height: 100vh;
   }
-  .primero{
+  .primeo{
     margin-left: 10px;
     display: flex;
     justify-content: space-between;
@@ -50,5 +51,8 @@
     color: black;
   }
   
+footer{
+  background-color: antiquewhite;
+}
   
  
