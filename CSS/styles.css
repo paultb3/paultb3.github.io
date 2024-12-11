@@ -11,8 +11,8 @@
     background-color: #f4f4f9;
     color: #333;
     display: grid;
-    grid-template-columns: 1fr 5fr ;
-    grid-template-rows: 9fr 2fr;
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: 9fr 1fr ;
     min-height: 100vh;
   }
 
