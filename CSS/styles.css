@@ -1,58 +1,23 @@
-/* General Reset */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  /* Body Styling */
-  body {
-    font-family: 'Open Sans', sans-serif;
-    background-color: #f4f4f9;
-    color: #333;
-    display: grid;
-    grid-template-columns: 1fr 5fr;
-    grid-template-rows: 9fr 1fr ;
-    min-height: 100vh;
-  }
-
-  header{
-    background-color:   #2c3e50;
-    color: white;
-     min-height: 100vh;
-  }
-  .primeo{
-    margin-left: 10px;
-    display: flex;
-    justify-content: space-between;
-  }
-
-  img{
-    width: 45px;
-    height: 45px;
-  }
-  ul{
-    margin-top:30px;
-  }
-  li{
-    margin: 30px 10px;
-    list-style: none;
-    text-align: center;
-  }
-
-  a{
-    text-decoration: none;
-    color: #f4f4f9;
-    border-radius: 12px;
-    padding: 5px;
-  }
-  a:hover{
-    background-color:#f4f4f9 ;
-    color: black;
-  }
-  
-footer{
-  background-color: antiquewhite;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+body{
+
+}
+
+header{
+
+}
+
+.container{
+  display: grid;
+  grid-template-columns: 1fr 7fr ;
   
- 
+  height: 100vh;
+}
+
+.content{
+  background-color: rgba(0,0,0,.6);
+}
