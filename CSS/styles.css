@@ -3,13 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-body{
 
-}
-
-header{
-
-}
 
 .container{
   display: grid;
@@ -17,7 +11,30 @@ header{
   
   height: 100vh;
 }
+.navbar{
+  margin: 20px;
+}
 
 .content{
   background-color: rgba(0,0,0,.6);
+}
+.logo{
+  font-size: 18px;
+  padding: 5px;
+}
+li{
+  list-style: none;
+  margin: 25px 2px;
+}
+
+a{
+  text-decoration: none;  
+  color: black;
+  padding: 6px;
+  border-radius: 8px;
+  margin: 10px 0;
+}
+a:hover{
+  background-color: rgba(0,0,0,.6);
+  color: white;
 }
