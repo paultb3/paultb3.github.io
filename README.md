@@ -43,13 +43,5 @@ Si usas un servidor como PHP, puedes iniciar un servidor local:
    ```bash
    php -S localhost:8000
    ```
-
-## 📬 Contacto
-Si tienes preguntas, comentarios o simplemente quieres conectar conmigo, puedes contactarme en:
-
-- **Correo:** tu-email@ejemplo.com
-- **LinkedIn:** [Mi LinkedIn](https://linkedin.com/in/tu-usuario)
-- **Twitter:** [@TuUsuario](https://twitter.com/TuUsuario)
-
 ---
 Gracias por visitar mi página. ¡Espero que te guste! 😄
