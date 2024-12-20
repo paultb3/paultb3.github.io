@@ -8,15 +8,28 @@
 .container{
   display: grid;
   grid-template-columns: 1fr 7fr ;
-  
   height: 100vh;
 }
 .navbar{
-  margin: 20px;
+  margin: 5px;
+  background-color: rgba(0,0,0,.1);
+  border-radius: 8px;
+  padding: 10px 15px;
 }
 
 .content{
-  background-color: rgba(0,0,0,.6);
+  background-color: rgba(0,0,0,.3);
+  margin: 5px 3px;
+  border-radius: 8px;
+  overflow: scroll;
+  text-align: center;
+}
+footer{
+  height: 10vh;
+  width: 100%;
+  background-color: rgba(0,0,0,.8);
+  color: #ffff;
+  text-align: center;
 }
 .logo{
   font-size: 18px;
