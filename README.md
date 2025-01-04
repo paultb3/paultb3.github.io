@@ -3,7 +3,7 @@
 ¡Bienvenido a mi página web personal! Este proyecto es una representación de quién soy, mis intereses y mi trabajo profesional. Aquí encontrarás información sobre mi experiencia, proyectos, y formas de contactarme.
 
 ## 🔗 Enlace en vivo
-Puedes visitar mi página web en el siguiente enlace: [Mi Página Web](https://tu-dominio-aqui.com)
+Puedes visitar mi página web en el siguiente enlace: [Mi Página Web](https://paultb3.github.io)
 
 ## 🛠️ Tecnologías utilizadas
 Este proyecto fue construido con las siguientes tecnologías:
@@ -35,7 +35,7 @@ Este proyecto fue construido con las siguientes tecnologías:
 ## 🚀 Cómo ejecutar el proyecto
 1. Clona este repositorio:
    ```bash
-   git clone https://github.com/tu-usuario/tu-repositorio.git
+   git clone https://github.com/tu-usuario/paultb3.git
    ```
 2. Abre el archivo `index.html` en tu navegador.
 
@@ -46,10 +46,6 @@ Si usas un servidor como PHP, puedes iniciar un servidor local:
 
 ## 📬 Contacto
 Si tienes preguntas, comentarios o simplemente quieres conectar conmigo, puedes contactarme en:
-
-- **Correo:** tu-email@ejemplo.com
-- **LinkedIn:** [Mi LinkedIn](https://linkedin.com/in/tu-usuario)
-- **Twitter:** [@TuUsuario](https://twitter.com/TuUsuario)
 
 ---
 Gracias por visitar mi página. ¡Espero que te guste! 😄
