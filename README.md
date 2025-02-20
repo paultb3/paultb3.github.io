@@ -3,9 +3,11 @@
 ¡Bienvenido a mi página web personal! Este proyecto es una representación de quién soy, mis intereses y mi trabajo profesional. Aquí encontrarás información sobre mi experiencia, proyectos, y formas de contactarme.
 
 ## 🔗 Enlace en vivo
-Puedes visitar mi página web en el siguiente enlace: [Mi Página Web](https://tu-dominio-aqui.com)
+
+Puedes visitar mi página web en el siguiente enlace: [Mi Página Web](paultb3.github.io)
 
 ## 🛠️ Tecnologías utilizadas
+
 Este proyecto fue construido con las siguientes tecnologías:
 
 - **HTML5**: Estructura de la página.
@@ -15,12 +17,14 @@ Este proyecto fue construido con las siguientes tecnologías:
 - **Framework o Librerías** (si aplican): Por ejemplo, Bootstrap, React, etc.
 
 ## ✨ Características
+
 - **Diseño responsivo:** Compatible con dispositivos móviles, tablets y desktops.
 - **Interactividad:** Animaciones y botones interactivos.
 - **Formulario de contacto:** Envía mensajes directamente a mi correo.
 - **Portafolio:** Muestra mis proyectos destacados.
 
 ## 📂 Estructura del proyecto
+
 ```
 /
 ├── index.html       # Página principal
@@ -33,6 +37,7 @@ Este proyecto fue construido con las siguientes tecnologías:
 ```
 
 ## 🚀 Cómo ejecutar el proyecto
+
 1. Clona este repositorio:
    ```bash
    git clone https://github.com/tu-usuario/tu-repositorio.git
@@ -40,8 +45,11 @@ Este proyecto fue construido con las siguientes tecnologías:
 2. Abre el archivo `index.html` en tu navegador.
 
 Si usas un servidor como PHP, puedes iniciar un servidor local:
-   ```bash
-   php -S localhost:8000
-   ```
+
+```bash
+php -S localhost:8000
+```
+
 ---
+
 Gracias por visitar mi página. ¡Espero que te guste! 😄
