@@ -36,20 +36,6 @@ Este proyecto fue construido con las siguientes tecnologías:
 └── README.md        # Archivo de documentación
 ```
 
-## 🚀 Cómo ejecutar el proyecto
-
-1. Clona este repositorio:
-   ```bash
-   git clone https://github.com/tu-usuario/tu-repositorio.git
-   ```
-2. Abre el archivo `index.html` en tu navegador.
-
-Si usas un servidor como PHP, puedes iniciar un servidor local:
-
-```bash
-php -S localhost:8000
-```
-
 ---
 
 Gracias por visitar mi página. ¡Espero que te guste! 😄
