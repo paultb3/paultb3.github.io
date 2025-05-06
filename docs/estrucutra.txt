@@ -19,6 +19,7 @@ mi-pagina-personal/
 │   │   ├── components/      # - Componentes React/Vue/Svelte/etc.
 │   │   ├── pages/           # - Rutas de tu web (e.g. /about, /projects)
 │   │   └── controllers/     # - Controladores que llaman casos de uso
+│   │   ├── styles/          # - Aqui van los estilos CSS/SCSS/Tailwind
 │   │
 │   ├── config/              # ⚙️ Configuración general (env, rutas, etc.)
 │   └── main.js              # Punto de entrada de tu app
