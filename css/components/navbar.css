@@ -65,3 +65,34 @@
 .contact-buttom:hover{
     background-color: #0f6cd1;
 }
+
+/* Versión adaptada para teléfonos */
+@media (max-width: 600px) {
+    .nav-bar {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 1rem;
+    }
+
+    .logo {
+        margin-bottom: 0.5rem;
+    }
+
+    .nav-options {
+        width: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.2rem;
+    }
+
+    .nav-options li a {
+        font-size: 15px;
+        display: block;
+        width: 100%;
+    }
+
+    .contact-buttom {
+        width: 100%;
+        text-align: center;
+    }
+}
