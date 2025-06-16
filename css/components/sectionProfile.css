@@ -137,6 +137,20 @@ body{
 .wave {
   position: absolute;
   bottom: 0;
+  height: 45vh;
   width: 100%;
   z-index: 1;
 }
+
+
+@media (max-width: 768px) {
+.wave {
+  position: absolute;
+  bottom: 0;
+  height: 20vh;
+  width: 100%;
+  z-index: 1;
+}
+}
+
+
